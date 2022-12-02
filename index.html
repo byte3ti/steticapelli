@@ -1,250 +1,419 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-   
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content=""> <!-- to have large image post format in Twitter -->
+    <meta property="og:site_name" content="" />
+    <!-- website name -->
+    <meta property="og:site" content="" />
+    <!-- website link -->
+    <meta property="og:title" content="" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" />
+    <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="" />
+    <!-- to have large image post format in Twitter -->
 
-		<!-- Favicon  -->
-		<link rel="icon" href="">
+    <!-- Favicon  -->
+    <link rel="icon" href="" />
 
-    	<!-- Webpage Title -->
-    	<title></title>
+    <!-- Webpage Title -->
+    <title></title>
 
-	<!-- Google font -->
-	<link href="" rel="stylesheet">
+    <!-- Google font -->
+    <link href="" rel="stylesheet" />
 
-	<!-- Bootstrap & Bootstrap Icons -->
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-	
-	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Bootstrap & Bootstrap Icons -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
 
-	<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-	<!-- scrollreveal -->
-	<script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
 
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
 
-<body>
+  <body>
+    <!-- //////////////////////////// INCLUDE NAVBAR //////////////////////////// -->
+    <script id="replace_with_nav" src="nav.js"></script>
+    <section class="home">
+      <div
+        style="
+          background-image: url(img/herobg.png);
+          background-size: cover;
+          background-position: center;
+          border-bottom-left-radius: 50px;
+          padding-bottom: 0px;
+        "
+      >
+        <div
+          class="container col-sm-12 col-xl-10 px-4"
+          style="padding-top: 80px"
+        >
+          <div class="row align-items-center g-lg-5 pt-4 pb-0">
+            <div class="col-lg-6 text-center text-lg-start">
+              <h1
+                class="display-2 fw-bold mb-1 text-light text-center"
+                style="line-height: 0.8"
+              >
+                <span style="color: #61daff">Calvos</span> &<br />
+                Carecas
+              </h1>
+              <h2 class="display-7 fw-bold mb-3 text-light text-center">
+                Nós temos a solução!
+              </h2>
 
-<!-- //////////////////////////// INCLUDE NAVBAR //////////////////////////// -->
-<script id="replace_with_nav" src="nav.js"></script>
-<section class="home" >
-	<div style="background-image: url(img/herobg.png); background-size: cover; background-position: center; border-bottom-left-radius: 50px; padding-bottom: 0px;">
-	<div class="container col-sm-12 col-xl-10 px-4" style="padding-top: 80px;">
-		<div class="row align-items-center g-lg-5 pt-4 pb-0">
-		  <div class="col-lg-6 text-center text-lg-start">
-			<h1 class="display-2 fw-bold mb-1 text-light text-center" style="line-height: 0.8;"><span style="color: #61DAFF;">Calvos</span> &<br> Carecas</h1>
-			<h2 class="display-7 fw-bold mb-3 text-light text-center">Nós temos a solução!</h2>
-			
-			<div class="container align-items-center justify-content-center" style="text-align: center;">
-			<img src="img/heroimg.png" class="d-block img-fluid" alt="Bootstrap Themes" loading="lazy">
-			</div>
-		</div>
-		  <div class="col-md-10 mx-auto col-lg-6 pb-4" data-toggle="animation" data-animation-reset="true" data-animation="fade-right">
-			<form class="p-4 p-md-4 needs-validation" id="formulario" novalidate style="background-color: rgba(255,255,255,0.05); border: solid 1px #61DAFF; border-radius: 7px; border-bottom-left-radius: 30px;">
-				<div class="form-group row">
-					<p class="fs-4 text-light text-center"><b>Receba <span style="color: #61DAFF;">descontos</span> em tratamentos!</b></p>
-					<p class="fs-6 text-light text-center">Preencha o formulário e receba desconto em seu implante capilar!</p>
-					<div class="col-md-6 mb-3">
-						<input type="text" class="form-control heroinput" name="nome" id="nome" placeholder="Nome" required onkeypress="">
-						<div class="invalid-feedback">
-							Por favor informe o seu nome!
-						</div>
-						<script>
-							$('#nome').on('input', function() {
-							this.value = this.value
-							.replace(/[^a-z\. \.A-Z]/g, "") ;          
-							});
-						</script>
-					</div>
-					<div class="col-md-6 mb-3">
-						<input type="text" class="form-control heroinput" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
-						<div class="invalid-feedback">
-							Por favor informe o seu sobrenome!
-						</div>
-						<script>
-							$('#sobrenome').on('input', function() {
-							this.value = this.value
-							.replace(/[^a-z\. \.A-Z]/g, "") ;          
-							});
-						</script>
-					</div>
-				</div>
-			  <div class="form-group mb-3">
-				<input type="email" class="form-control heroinput" id="floatingInput" placeholder="Seu E-mail" required>
-				<div class="invalid-feedback">
-					Por favor informe o seu Email!
-				</div>
-			  </div>
-			  <div class="form-group mb-3">
-				<input type="tel" class="form-control heroinput" id="floatingPassword" placeholder="Seu Whatsapp" required
-                minlength="10"
-                onkeydown="return mascaraTelefone(event)"
-                onkeypress="return onlyNumberKey(event)"
-				required
-              /><div class="invalid-feedback">
-                Por favor informe o seu Whatsapp com DDD!
+              <div
+                class="container align-items-center justify-content-center"
+                style="text-align: center"
+              >
+                <img
+                  src="img/heroimg.png"
+                  class="d-block img-fluid"
+                  alt="Bootstrap Themes"
+                  loading="lazy"
+                />
               </div>
-			  </div>
-			  <button class="w-100 btn btn-info fadingin confirmbtn cianglow" type="submit">Enviar Dados</button>
-			  <hr class="my-4">
-			  <small class="text-light">Ao clicar em "Enviar Dados", você concorda com os <a href="" style="color: #fff;">termos de uso</a>.</small>
-			</form>
-		  </div>
-		</div>
-	  </div>
-	</div>
-</section>
+            </div>
+            <div
+              class="col-md-10 mx-auto col-lg-6 pb-4"
+              data-toggle="animation"
+              data-animation-reset="true"
+              data-animation="fade-right"
+            >
+              <form
+                class="p-4 p-md-4 needs-validation"
+                id="formulario"
+                novalidate
+                style="
+                  background-color: rgba(255, 255, 255, 0.05);
+                  border: solid 1px #61daff;
+                  border-radius: 7px;
+                  border-bottom-left-radius: 30px;
+                "
+              >
+                <div class="form-group row">
+                  <p class="fs-4 text-light text-center">
+                    <b
+                      >Receba <span style="color: #61daff">descontos</span> em
+                      tratamentos!</b
+                    >
+                  </p>
+                  <p class="fs-6 text-light text-center">
+                    Preencha o formulário e receba desconto em seu implante
+                    capilar!
+                  </p>
+                  <div class="col-md-6 mb-3">
+                    <input
+                      type="text"
+                      class="form-control heroinput"
+                      name="nome"
+                      id="nome"
+                      placeholder="Nome"
+                      required
+                      onkeypress=""
+                    />
+                    <div class="invalid-feedback">
+                      Obrigatório informar o seu nome!
+                    </div>
+                    <script>
+                      $('#nome').on('input', function () {
+                        this.value = this.value.replace(/[^a-z\. \.A-Z]/g, '')
+                      })
+                    </script>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <input
+                      type="text"
+                      class="form-control heroinput"
+                      name="sobrenome"
+                      id="sobrenome"
+                      placeholder="Sobrenome"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Por favor informe o seu sobrenome!
+                    </div>
+                    <script>
+                      $('#sobrenome').on('input', function () {
+                        this.value = this.value.replace(/[^a-z\. \.A-Z]/g, '')
+                      })
+                    </script>
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <input
+                    type="email"
+                    class="form-control heroinput"
+                    id="floatingInput"
+                    placeholder="Seu E-mail"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Por favor informe o seu Email!
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <input
+                    type="tel"
+                    class="form-control heroinput"
+                    id="floatingPassword"
+                    placeholder="Seu Whatsapp"
+                    required
+                    minlength="10"
+                    onkeydown="return mascaraTelefone(event)"
+                    onkeypress="return onlyNumberKey(event)"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Por favor informe o seu Whatsapp com DDD!
+                  </div>
+                </div>
+                <button
+                  class="w-100 btn btn-info fadingin confirmbtn cianglow"
+                  type="submit"
+                >
+                  Enviar Dados
+                </button>
+                <hr class="my-4" />
+                <small class="text-light"
+                  >Ao clicar em "Enviar Dados", você concorda com os
+                  <a href="" style="color: #fff">termos de uso</a>.</small
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<script>
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-  'use strict'
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      ;(function () {
+        'use strict'
 
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  var forms = document.querySelectorAll('.needs-validation')
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
 
-  // Loop over them and prevent submission
-  Array.prototype.slice.call(forms)
-    .forEach(function (form) {
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            'submit',
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
 
-        form.classList.add('was-validated')
-      }, false)
-    })
-})()
-</script>
+              form.classList.add('was-validated')
+            },
+            false
+          )
+        })
+      })()
+    </script>
 
-<script>
-    function mascaraTelefone(event) {
-        let tecla = event.key;
-        let telefone = event.target.value.replace(/\D+/g, "");
+    <script>
+      function mascaraTelefone(event) {
+        let tecla = event.key
+        let telefone = event.target.value.replace(/\D+/g, '')
 
         if (/^[0-9]$/i.test(tecla)) {
-            telefone = telefone + tecla;
-            let tamanho = telefone.length;
+          telefone = telefone + tecla
+          let tamanho = telefone.length
 
-            if (tamanho >= 12) {
-                return false;
-            }
-            
-            if (tamanho > 10) {
-                telefone = telefone.replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3");
-            } else if (tamanho > 5) {
-                telefone = telefone.replace(/^(\d\d)(\d{4})(\d{0,4}).*/, "($1) $2-$3");
-            } else if (tamanho > 2) {
-                telefone = telefone.replace(/^(\d\d)(\d{0,5})/, "($1) $2");
-            } else {
-                telefone = telefone.replace(/^(\d*)/, "($1");
-            }
+          if (tamanho >= 12) {
+            return false
+          }
 
-            event.target.value = telefone;
+          if (tamanho > 10) {
+            telefone = telefone.replace(/^(\d\d)(\d{5})(\d{4}).*/, '($1) $2-$3')
+          } else if (tamanho > 5) {
+            telefone = telefone.replace(
+              /^(\d\d)(\d{4})(\d{0,4}).*/,
+              '($1) $2-$3'
+            )
+          } else if (tamanho > 2) {
+            telefone = telefone.replace(/^(\d\d)(\d{0,5})/, '($1) $2')
+          } else {
+            telefone = telefone.replace(/^(\d*)/, '($1')
+          }
+
+          event.target.value = telefone
         }
 
-        if (!["Backspace", "Delete"].includes(tecla)) {
-            return false;
+        if (!['Backspace', 'Delete'].includes(tecla)) {
+          return false
         }
-    }
-</script>
+      }
+    </script>
 
-<section>
-  <div class="container col-xxl-8 px-4 pt-3">
-	<div class="row flex-lg-row-reverse align-items-center pt-4 pb-4">
-	  <div class="col-lg-6 text1 px-4">
-		<h2 class="display-7 fw-bold lh-1 mb-3">Novas tecnologias produzem excelentes resultados no tratamento da calvície.</h2>
-		<p class="fs-6">A evolução da cirurgia da calvície vem há décadas buscando resultados mais naturais que escondam o estigma do paciente operado que, em tecnologias antigas deixavam com aspecto de “cabelo de boneca”. A tecnologia “FUE” preconiza a retirada de folículos pilosos um a um, com pêlos que serão implantados nas áreas de alopecia ou calvas. Os fios transplantados são permanentes e não sofrerão a influência de fatores genéticos do indivíduo. <b>Este é um tratamento definitivo oferecido pela Steticapelli!</b></p>
-		<div class="d-grid gap-2 d-md-flex justify-content-md-start pb-4">
-		  <button type="button" class="btn btn-dark px-4 me-md-2">Conheça a nossa clínica <i class="bi bi-arrow-down"></i></button>
-		  <!--<button type="button" class="btn btn-outline-dark px-4">Default</button>-->
-		</div>
-	  </div>
-	  <div class="col-lg-6">
-		<video width="100%" height="auto" controls>
-			<source src="movie.mp4" type="video/mp4">
-			<source src="movie.ogg" type="video/ogg">
-		  Your browser does not support the video tag.
-		  </video>
-		<!--<img src="img/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">-->
-	  </div>
-	</div>
-  </div>
-</section>
+    <section>
+      <div class="container col-xxl-8 px-4 pt-3">
+        <div class="row flex-lg-row-reverse align-items-center pt-4 pb-4">
+          <div class="col-lg-6 text1 px-4">
+            <h2 class="display-7 fw-bold lh-1 mb-3">
+              Novas tecnologias produzem excelentes resultados no tratamento da
+              calvície.
+            </h2>
+            <p class="fs-6">
+              A evolução da cirurgia da calvície vem há décadas buscando
+              resultados mais naturais que escondam o estigma do paciente
+              operado que, em tecnologias antigas deixavam com aspecto de
+              “cabelo de boneca”. A tecnologia “FUE” preconiza a retirada de
+              folículos pilosos um a um, com pêlos que serão implantados nas
+              áreas de alopecia ou calvas. Os fios transplantados são
+              permanentes e não sofrerão a influência de fatores genéticos do
+              indivíduo.
+              <b
+                >Este é um tratamento definitivo oferecido pela Steticapelli!</b
+              >
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start pb-4">
+              <button type="button" class="btn btn-dark px-4 me-md-2">
+                Conheça a nossa clínica <i class="bi bi-arrow-down"></i>
+              </button>
+              <!--<button type="button" class="btn btn-outline-dark px-4">Default</button>-->
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <video width="100%" height="auto" controls>
+              <source src="movie.mp4" type="video/mp4" />
+              <source src="movie.ogg" type="video/ogg" />
+              Your browser does not support the video tag.
+            </video>
+            <!--<img src="img/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">-->
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section>
-	<div class="container col-xxl-8 px-4 pt-3 pb-4">
-		<div class="row flex-lg-row-reverse justify-content-center align-items-center g-5 pt-3">
-			<div class="col-10 col-sm-12 col-lg-5 img1">
-				<img src="img/sobre.png" class="img-fluid" alt="Bootstrap Themes" loading="lazy">
-			</div>
-		  	<div class="col-sm-12 col-lg-7 pb-5 text2">
-				<h2 class="display-6 fw-bold lh-1 mb-4">Conte com uma Clínica Especializada no Tratamento da Calvície.</h2>
-				<!--<p class="fw-bold lh-1 mb-3 text-dark" style="font-size: 22px; font-weight: 900;">Conheça a Steticapelli</p>-->
-				<p class="fs-6">A Steticapelli é o resultado da iniciativa de três médicos sêniores com mais de 30 anos de experiência médica e título de especialista em cirurgia plástica pela Sociedade Brasileira de Cirurgia Plástica. Buscamos o emprego de refinada técnica, no estado da arte do conhecimento técnico e científico. O profissionalismo e a busca pela qualidade traduzida em excelência nos resultados são motivo de perseguição de sucesso e da satisfação de nossos clientes.</p>
-			<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-			  <button type="button" class="btn btn-dark px-4 me-md-2">Conheça os nossos tratamentos <i class="bi bi-arrow-down"></i></button>
-			  <!--<button type="button" class="btn btn-outline-dark px-4">Default</button>-->
-			</div>
-		  </div>
-		</div>
-	</div>
-</section>
-	
-<section class="bg-dark text-light">
-  <div class="container px-4 pt-2 pb-3" id="hanging-icons">
-	<h1 class="text-center display-7 fw-bold pt-5 text-light">Nossos Tratamentos</h1>
-	<div class="row g-4 py-3" >
-	  <div class="col-lg-5 d-flex align-items-start impCap">
-		<div style="text-align: center;">
-			<img src="img/implante.png" width="auto" height="60" class="d-inline-block align-top" alt="" style="margin-bottom: 20px;">
-		  <h3 class="text-light">Implante Capilar</h3>
-		  <p class="text-light">O implante capilar representa a retirada do folículo piloso através de um equipamento especial que retira um a um com o fio de cabelo presente apesar de curto. Este folículo é introduzido no couro cabeludo na região de calvície, na barba ou sobrancelhas, restaurando a forma padrão e estética que todos buscam.</p>
-		  <!--<a href="#" class="btn btn-dark">
+    <section>
+      <div class="container col-xxl-8 px-4 pt-3 pb-4">
+        <div
+          class="row flex-lg-row-reverse justify-content-center align-items-center g-5 pt-3"
+        >
+          <div class="col-10 col-sm-12 col-lg-5 img1">
+            <img
+              src="img/sobre.png"
+              class="img-fluid"
+              alt="Bootstrap Themes"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-sm-12 col-lg-7 pb-5 text2">
+            <h2 class="display-6 fw-bold lh-1 mb-4">
+              Conte com uma Clínica Especializada no Tratamento da Calvície.
+            </h2>
+            <!--<p class="fw-bold lh-1 mb-3 text-dark" style="font-size: 22px; font-weight: 900;">Conheça a Steticapelli</p>-->
+            <p class="fs-6">
+              A Steticapelli é o resultado da iniciativa de três médicos
+              sêniores com mais de 30 anos de experiência médica e título de
+              especialista em cirurgia plástica pela Sociedade Brasileira de
+              Cirurgia Plástica. Buscamos o emprego de refinada técnica, no
+              estado da arte do conhecimento técnico e científico. O
+              profissionalismo e a busca pela qualidade traduzida em excelência
+              nos resultados são motivo de perseguição de sucesso e da
+              satisfação de nossos clientes.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-dark px-4 me-md-2">
+                Conheça os nossos tratamentos <i class="bi bi-arrow-down"></i>
+              </button>
+              <!--<button type="button" class="btn btn-outline-dark px-4">Default</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-light">
+      <div class="container px-4 pt-2 pb-3" id="hanging-icons">
+        <h1 class="text-center display-7 fw-bold pt-5 text-light">
+          Nossos Tratamentos
+        </h1>
+        <div class="row g-4 py-3">
+          <div class="col-lg-5 d-flex align-items-start impCap">
+            <div style="text-align: center">
+              <img
+                src="img/implante.png"
+                width="auto"
+                height="60"
+                class="d-inline-block align-top"
+                alt=""
+                style="margin-bottom: 20px"
+              />
+              <h3 class="text-light">Implante Capilar</h3>
+              <p class="text-light">
+                O implante capilar representa a retirada do folículo piloso
+                através de um equipamento especial que retira um a um com o fio
+                de cabelo presente apesar de curto. Este folículo é introduzido
+                no couro cabeludo na região de calvície, na barba ou
+                sobrancelhas, restaurando a forma padrão e estética que todos
+                buscam.
+              </p>
+              <!--<a href="#" class="btn btn-dark">
 			Primary button
 		  </a>-->
-		</div>
-	  </div>
-	  <div class="col-lg-7 d-flex align-items-start impHor">
-		<div style="text-align: center;">
-			<img src="img/hormonio.png" width="auto" height="60" class="d-inline-block align-top" alt="" style="margin-bottom: 20px;">
-		  <h3 class="text-light">Implante Hormonal</h3>
-		  <p class="text-light">Os distúrbios hormonais, na sua grande maioria, são decorrentes da redução destes hormônios na circulação sanguínea e nos tecidos. Esta situação provoca inúmeros distúrbios prejudiciais à saúde e a qualidade de vida de grande número de pessoas. A reposição hormonal de implantes cilíndricos, que através de um simples e rápido procedimento cirúrgico, com uma incisão de 5mm na pele para sua implantação, resolvem estes déficits hormonais e levam bem-estar e qualidade de vida para homens e mulheres. Além disso, métodos contraceptivos podem ser instituídos com esta técnica.</p>
-		  <!--<a href="#" class="btn btn-dark">
+            </div>
+          </div>
+          <div class="col-lg-7 d-flex align-items-start impHor">
+            <div style="text-align: center">
+              <img
+                src="img/hormonio.png"
+                width="auto"
+                height="60"
+                class="d-inline-block align-top"
+                alt=""
+                style="margin-bottom: 20px"
+              />
+              <h3 class="text-light">Implante Hormonal</h3>
+              <p class="text-light">
+                Os distúrbios hormonais, na sua grande maioria, são decorrentes
+                da redução destes hormônios na circulação sanguínea e nos
+                tecidos. Esta situação provoca inúmeros distúrbios prejudiciais
+                à saúde e a qualidade de vida de grande número de pessoas. A
+                reposição hormonal de implantes cilíndricos, que através de um
+                simples e rápido procedimento cirúrgico, com uma incisão de 5mm
+                na pele para sua implantação, resolvem estes déficits hormonais
+                e levam bem-estar e qualidade de vida para homens e mulheres.
+                Além disso, métodos contraceptivos podem ser instituídos com
+                esta técnica.
+              </p>
+              <!--<a href="#" class="btn btn-dark">
 			Primary button
 		  </a>-->
-		</div>
-	  </div>
-	  <!--<div class="col d-flex align-items-start">
+            </div>
+          </div>
+          <!--<div class="col d-flex align-items-start">
 		<div style="text-align: center;">
 		  <h2>Featured title</h2>
 		  <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
@@ -253,112 +422,154 @@
 		  </a>
 		</div>
 	  </div>-->
-	</div>
-  </div>
-</section>
-
-<section>
-	<div class="container col-xxl-8 px-4 pt-5">
-		<div class="row flex-lg-row-reverse align-items-center g-5 pt-0">
-			<div class="col-10 col-sm-8 col-lg-6 order-1 img2">
-				<img src="img/seniorman1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-			</div>
-		  	<div class="col-lg-6 pb-5 text3">
-				<h2 class="display-5 fw-bold lh-1 mb-2">Invista em sua aparência!</h2>
-				<!--<p class="fw-bold lh-1 mb-3 text-dark" style="font-size: 22px; font-weight: 900;">Conheça a Steticapelli</p>-->
-				<h4 class="fs-3">Os resultados serão positivos em sua vida profissional e principalmente amorosa.</h4>
-			<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-			  <button type="button" class="btn btn-dark px-4 me-md-2">Agende a sua consulta <i class="bi bi-whatsapp"></i></button>
-			  <!--<button type="button" class="btn btn-outline-dark px-4">Default</button>-->
-			</div>
-		  </div>
-		</div>
-	</div>
-</section>
-
-<!-- FORM ACTION -->
-
-<section class="section1" style="background-image: url(img/herobg.png); background-size: cover; background-position: center; border-top-right-radius: 50px;">
-  <div class="px-4 text-center pt-5">
-    <h1 class="display-4 fw-bold text-light">Centered screenshot</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4 text-light fs-6">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-info btn-lg px-4 me-sm-3">Agende uma consulta! <i class="bi bi-whatsapp"></i></button>
+        </div>
       </div>
-    </div>
-    <div class="overflow-hidden" style="max-height: 30vh;">
-      <div class="container px-5">
-        <img src="img/bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+    </section>
+
+    <section>
+      <div class="container col-xxl-8 px-4 pt-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-0">
+          <div class="col-10 col-sm-8 col-lg-6 order-1 img2">
+            <img
+              src="img/seniorman1.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6 pb-5 text3">
+            <h2 class="display-5 fw-bold lh-1 mb-2">
+              Invista em sua aparência!
+            </h2>
+            <!--<p class="fw-bold lh-1 mb-3 text-dark" style="font-size: 22px; font-weight: 900;">Conheça a Steticapelli</p>-->
+            <h4 class="fs-3">
+              Os resultados serão positivos em sua vida profissional e
+              principalmente amorosa.
+            </h4>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-dark px-4 me-md-2">
+                Agende a sua consulta <i class="bi bi-whatsapp"></i>
+              </button>
+              <!--<button type="button" class="btn btn-outline-dark px-4">Default</button>-->
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section>
-		<div class="col-md-12" >
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.7512312506221!2d-46.4397947!3d-23.4963321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6161dcf36d59%3A0xb6b95e349b3dba6d!2sRua%20%C3%81lvaro%20Correa%20Borges%2C%202%20-%20Vila%20Dr.%20Eiras%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008010-200!5e0!3m2!1spt-BR!2sbr!4v1669843968652!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:1px solid #61DAFF;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	</div>
-</section>
+    <!-- FORM ACTION -->
 
-<!-- //////////////////////////// INCLUDE FOOTER //////////////////////////// -->
-<script id="replace_with_footer" src="footer.js"></script>
+    <section
+      class="section1"
+      style="
+        background-image: url(img/herobg.png);
+        background-size: cover;
+        background-position: center;
+        border-top-right-radius: 50px;
+      "
+    >
+      <div class="px-4 text-center pt-5">
+        <h1 class="display-4 fw-bold text-light">Centered screenshot</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-light fs-6">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-info btn-lg px-4 me-sm-3">
+              Agende uma consulta! <i class="bi bi-whatsapp"></i>
+            </button>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh">
+          <div class="container px-5">
+            <img
+              src="img/bootstrap-docs.png"
+              class="img-fluid border rounded-3 shadow-lg mb-4"
+              alt="Example image"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<!-- jQuery Plugins -->
-	<!--<script src="js/jquery.min.js"></script>-->
-	<script
-  src="https://code.jquery.com/jquery-3.6.1.slim.js"
-  integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk="
-  crossorigin="anonymous"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<!--<script src="js/jquery.stellar.min.js"></script>-->
-	<script src="js/main.js"></script>
-	<script src="js/animations.js"></script>
+    <section>
+      <div class="col-md-12">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.7512312506221!2d-46.4397947!3d-23.4963321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6161dcf36d59%3A0xb6b95e349b3dba6d!2sRua%20%C3%81lvaro%20Correa%20Borges%2C%202%20-%20Vila%20Dr.%20Eiras%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008010-200!5e0!3m2!1spt-BR!2sbr!4v1669843968652!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="300"
+          style="border: 1px solid #61daff"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
 
-	<script>
-		(function () {
-		  'use strict'
-		
-		  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-		  var forms = document.querySelectorAll('.needs-validation')
-		
-		  // Loop over them and prevent submission
-		  Array.prototype.slice.call(forms)
-			.forEach(function (form) {
-			  form.addEventListener('submit', function (event) {
-				if (!form.checkValidity()) {
-				  event.preventDefault()
-				  event.stopPropagation()
-				}
-		
-				form.classList.add('was-validated')
-			  }, false)
-			})
-		})()
-		</script>
-		
-		<script>
-		function checkPhoneKey(key) {
-		  return (key >= '0' && key <= '9') || ['+','(',')','-'].includes(key);
-		}
-		</script>
+    <!-- //////////////////////////// INCLUDE FOOTER //////////////////////////// -->
+    <script id="replace_with_footer" src="footer.js"></script>
 
-		
+    <!-- jQuery Plugins -->
+    <!--<script src="js/jquery.min.js"></script>-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.slim.js"
+      integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/jquery.stellar.min.js"></script>-->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
 
-		<!-- Animação -->
-		<script src="js/animation.js"></script>
-		
-		<script>
-				function onlyNumberKey(evt) {
-					  
-					// Only ASCII character in that range allowed
-					var ASCIICode = (evt.which) ? evt.which : evt.keyCode
-					if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
-						return false;
-					return true;
-				}
-			</script>
+    <script>
+      ;(function () {
+        'use strict'
 
-</body>
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
 
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            'submit',
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
+
+              form.classList.add('was-validated')
+            },
+            false
+          )
+        })
+      })()
+    </script>
+
+    <script>
+      function checkPhoneKey(key) {
+        return (key >= '0' && key <= '9') || ['+', '(', ')', '-'].includes(key)
+      }
+    </script>
+
+    <!-- Animação -->
+    <script src="js/animation.js"></script>
+
+    <script>
+      function onlyNumberKey(evt) {
+        // Only ASCII character in that range allowed
+        var ASCIICode = evt.which ? evt.which : evt.keyCode
+        if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) return false
+        return true
+      }
+    </script>
+  </body>
 </html>
