@@ -472,30 +472,89 @@
     >
       <div class="px-4 text-center pt-5">
         <h1 class="display-4 fw-bold text-light">Centered screenshot</h1>
-        <div class="col-lg-6 mx-auto">
+        <div class="col-lg-8 mx-auto">
           <p class="lead mb-4 text-light fs-6">
             Quickly design and customize responsive mobile-first sites with
             Bootstrap, the world’s most popular front-end open source toolkit,
             featuring Sass variables and mixins, responsive grid system,
             extensive prebuilt components, and powerful JavaScript plugins.
           </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <button type="button" class="btn btn-info btn-lg px-4 me-sm-3">
-              Agende uma consulta! <i class="bi bi-whatsapp"></i>
-            </button>
-          </div>
         </div>
-        <div class="overflow-hidden" style="max-height: 30vh">
-          <div class="container px-5">
-            <img
-              src="img/bootstrap-docs.png"
-              class="img-fluid border rounded-3 shadow-lg mb-4"
-              alt="Example image"
-              width="700"
-              height="500"
-              loading="lazy"
-            />
-          </div>
+        <div
+          class="col-md-10 mx-auto col-lg-8 pb-4 mt-4"
+          data-toggle="animation"
+          data-animation-reset="true"
+          data-animation="fade-right"
+        >
+          <form
+            class="p-4 p-md-4 needs-validation"
+            id="formulario"
+            novalidate
+            style="
+              background-color: rgba(255, 255, 255, 0.05);
+              border-radius: 7px;
+            "
+          >
+            <div class="form-group row mt-2">
+              <p class="fs-4 text-light text-center">
+                <b
+                  >Receba <span style="color: #61daff">descontos</span> em
+                  tratamentos!</b
+                >
+              </p>
+              <div class="form-group col-md-12 mb-3">
+                <input
+                  type="text"
+                  class="form-control heroinput"
+                  id="floatingInput"
+                  placeholder="Digite seu nome
+                  "
+                  required
+                />
+                <div class="invalid-feedback">
+                  Obrigatório informar o seu Nome!
+                </div>
+              </div>
+
+              <div class="form-group col-md-6 mb-3">
+                <input
+                  type="email"
+                  class="form-control heroinput"
+                  id="floatingInput"
+                  placeholder="Digite seu e-mail
+                  "
+                  required
+                />
+                <div class="invalid-feedback">
+                  Obrigatório informar o seu Email!
+                </div>
+              </div>
+              <div class="form-group col-md-6 mb-3">
+                <input
+                  type="tel"
+                  class="form-control heroinput"
+                  id="floatingPassword"
+                  placeholder="Digite seu whatsapp"
+                  required
+                  minlength="10"
+                  onkeydown="return mascaraTelefone(event)"
+                  onkeypress="return onlyNumberKey(event)"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Obrigatório informar o seu Whatsapp com DDD!
+                </div>
+              </div>
+              <div>
+                <button
+                  class="btn btn-outline-info fadingin confirmbtn cianglow w-100 mt-2"
+                  type="submit"
+                >
+                  Enviar Dados
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </section>
