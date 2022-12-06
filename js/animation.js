@@ -16,7 +16,7 @@ const scrollRevealLeft = ScrollReveal({
   reset: true
 })
 
-scrollRevealLeft.reveal('.section1', { interval: 300 })
+scrollRevealLeft.reveal('', { interval: 300 })
 
 const scrollRevealFixed = ScrollReveal({
   origin: 0,
@@ -26,9 +26,12 @@ const scrollRevealFixed = ScrollReveal({
   delay: 300
 })
 
-scrollRevealFixed.reveal('.text1, .text2, .impHor, .impCap, .text3', {
-  interval: 300
-})
+scrollRevealFixed.reveal(
+  '.text1, .text2, .impHor, .impCap, .text3, .section1',
+  {
+    interval: 300
+  }
+)
 
 const scrollRevealScale = ScrollReveal({
   origin: 0,
